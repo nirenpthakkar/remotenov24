@@ -12,4 +12,4 @@ jobs:
   use_env_var:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "My secret data: $my_secret_var_value"
+      - run: echo "My secret data -> $my_secret_var_value"
